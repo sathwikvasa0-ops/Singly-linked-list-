@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Definition of node */
+
 struct node {
     int data;
     struct node *next;
@@ -9,7 +9,7 @@ struct node {
 
 struct node *head = NULL;
 
-/* Function Prototypes */
+
 void createez8();
 void insertz8();
 void deleteez8();
